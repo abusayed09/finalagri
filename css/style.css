@@ -1,0 +1,21 @@
+.bg-body-tertiary {
+	--bs-bg-opacity: 1;
+	background-color: rgba(83, 142, 75, 0.51) !important;
+    padding: 10px;
+}
+.carousel-item{
+    height: 600px;
+    object-fit: cover !important;
+}
+.navbar-nav{
+    gap: 26px ;
+    
+}
+.nav-item a{
+    text-transform: uppercase;
+}
+.image-section{
+    background: url(bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

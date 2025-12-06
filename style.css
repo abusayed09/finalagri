@@ -1,0 +1,274 @@
+.slider .carousel-inner img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.about .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.about img{
+    width: 100%;
+}
+.about{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.about .caption{
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 46px;
+    color: green;
+}
+.farming img{
+    width: 100%;
+    
+}
+.contact textarea{
+    resize: none;
+}
+.hero-farming img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.hero-farming{
+    position: relative;
+}
+.hero-farming .caption{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 900;
+    color: #fff;
+}
+.hero-farming h2{
+    font-size: 62px;
+    color: #ff0018;
+    font-weight: bold;
+}
+
+/*
+  font-family: "Stack Sans Text", sans-serif;
+  font-family: "Open Sans", sans-serif; */
+
+
+.future h2{
+    color: green;
+    /* text-shadow: 0px 6px 7px; */
+    font-size: 40px;
+    padding: 43px;
+    /* text-transform: uppercase; */
+    text-decoration: dashed;
+}
+.hero-farming h2{
+        font-size: 79px;
+    /* color: #ff0018; */
+    font-weight: bold;
+    /* color: black; */
+    color: #196666;
+}
+.hero-farming h3{
+    font-size: 28ox;
+        color: black;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+}
+.hero-farming img{
+    opacity: 0.4;
+}
+
+
+.pest .caption{
+        color: green;
+    /* text-shadow: 0px 6px 7px; */
+    font-size: 40px;
+    padding: 43px;
+    /* text-transform: uppercase; */
+    text-decoration: dashed;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.foot {
+    position: sticky;
+    bottom: 0;
+    z-index: 9999;
+}
+.header img {
+    width: 55px;
+    height: 38px;
+
+}
+
+.slider img {
+    width: 300px;
+    height: 300px;
+}
+
+.introduction .flex img {
+    width: 100%;
+    height: 385px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.introduction .flex p {
+    text-align: justify;
+}
+
+.document h2 {
+    text-shadow: 2px 1px 4px black;
+}
+
+.document .card img {
+    width: 100%;
+    height: 270px;
+}
+
+
+
+.gallery h2 {
+    text-shadow: 2px 1px 4px black;
+}
+
+.gallery .card img {
+    width: 100%;
+    height: 270px;
+}
+
+.contact h2 {
+    text-shadow: 2px 1px 4px black;
+}
+
+.contact2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.card {
+      width: 100%;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px black;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    }
+
+    .introduction .flex img{
+      width: 100%;
+      height: 450px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px black;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .introduction .flex img:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    }
+
+.document .card-hight{
+     max-height: 230px;
+ 
+}
+
+.document .card-hight2{
+     max-height: 307px;
+ 
+}
+
+
+
+
+
+
+.ipm-section h2 {
+    color: #1a7f37;
+}
+
+.ipm-intro {
+    font-size: 18px;
+    color: #555;
+}
+
+.ipm-card {
+    transition: 0.3s;
+}
+
+.ipm-card:hover {
+    transform: translateY(-6px);
+    background: #e9ffe6;
+}
+.pest-section:hover{
+    transform: translateY(-6px);
+    background: #e9ffe6;
+}
+.ipm-list li,
+.ipm-tips li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.tips-box {
+    border-left: 6px solid #1a7f37;
+     border-right: 6px solid #1a7f37;
+}
+
+.ipm-tips li::before {
+    content: "✔ ";
+    color: #1a7f37;
+    font-weight: bold;
+}
+
+
+.contact-info-section {
+    background: #f3f8ff;
+}
+
+.info-box {
+    border-left: 6px solid #0d6efd;
+     border-right: 6px solid #0d6efd;
+}
+
+.info-item strong {
+    font-size: 16px;
+    color: #0d6efd;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.info-box:hover {
+    background: #e8f0ff;
+    transition: 0.3s;
+}
+.contact-info-section h2{
+        text-shadow: 2px 1px 4px black;
+}
