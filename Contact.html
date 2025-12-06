@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agricultural Information Hub</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  </head>
-  <body>
-    <section class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container">
-          <a class="navbar-brand fw-bold" href="">Agriculture Hub</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Farming-Guides.html"
-                  >Farming Guides</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Crop-Details.html">Crop Details</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Pest-Control.html">Pest Control Strategies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agricultural Information Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+</head>
+
+<body>
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="">Agriculture Hub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Farming-Guides.html">Farming Guides</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Crop-Details.html">Crop Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pest-Control.html">Pest Control Strategies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </section>
-
-    <section class="hero-farming">
-      <img src="./image/update-2.jpg" alt="" />
-      <div class="caption">
-        <h3>Welcome To The</h3>
-        <h2>Contact</h2>
       </div>
-    </section>
+    </nav>
+  </section>
 
-  <section id="contact" class="contact py-5 bg-light">
+  <section class="hero-farming">
+    <img src="./image/update-2.jpg" alt="" />
+    <div class="caption">
+      <h3>Welcome To The</h3>
+      <h2>Contact</h2>
+    </div>
+  </section>
+
+  <section id="contactForm" class="contact py-5 bg-light">
     <div class="container">
       <h2 class="text-center mb-4 fw-bold text-success">Contact Agricultural Experts</h2>
       <p class="text-center mb-5">Have questions or need personalized advice? Reach out to our experts below.</p>
@@ -66,11 +58,11 @@
           <form class="p-4 border rounded shadow bg-white">
             <div class="mb-3">
               <label for="name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
             </div>
             <div class="mb-3">
               <label for="topic" class="form-label">Topic / Area of Expertise</label>
@@ -78,7 +70,7 @@
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Type your query here..." required></textarea>
+              <textarea class="form-control" id="message" rows="4" placeholder="Type your query here..."></textarea>
             </div>
             <div class="mb-3">
               <label for="attachment" class="form-label">Attach Image or Document (optional)</label>
@@ -98,84 +90,86 @@
 
   <section class="contact-info-section py-5">
     <div class="container">
-        <h2 class="text-center mb-4 fw-bold text-success">Direct Contact Information</h2>
-        <p class="text-center text-muted mb-5">
-            You can directly reach us through the following contact details. 
-            Feel free to connect anytime for support or queries.
-        </p>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="info-box shadow p-4 rounded-4 bg-white">
-                    <h4 class="fw-bold mb-3 text-primary">Contact Details</h4>
-
-                    <div class="info-item mb-3">
-                        <strong>Name:</strong>
-                        <p class="mb-0">MD ABU SAYED BIN AMIN</p>
-                    </div>
-
-                    <div class="info-item mb-3">
-                        <strong>Phone:</strong>
-                        <p class="mb-0">+8801752522629</p>
-                    </div>
-
-                    <div class="info-item mb-3">
-                        <strong>Email:</strong>
-                        <p class="mb-0">mdabusayedbinamin@gmail.com</p>
-                    </div>
-
-                    <div class="info-item mb-3">
-                        <strong>Address:</strong>
-                        <p class="mb-0">Kurigram Sadar, Rangpur Division, Bangladesh</p>
-                    </div>
-
-                    <div class="info-item">
-                        <strong>Available Time:</strong>
-                        <p class="mb-0">Everyday – 9:00 AM to 8:00 PM</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    <footer class="bg-success text-white text-center py-3">
-      <p class="mb-0">
-        © 2025 Agricultural Information Hub. All rights reserved.
-
+      <h2 class="text-center mb-4 fw-bold text-success">Direct Contact Information</h2>
+      <p class="text-center text-muted mb-5">
+        You can directly reach us through the following contact details.
+        Feel free to connect anytime for support or queries.
       </p>
-      <div id="timedate">
 
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="info-box shadow p-4 rounded-4 bg-white">
+            <h4 class="fw-bold mb-3 text-primary">Contact Details</h4>
+
+            <div class="info-item mb-3">
+              <strong>Name:</strong>
+              <p class="mb-0">MD ABU SAYED BIN AMIN</p>
+            </div>
+
+            <div class="info-item mb-3">
+              <strong>Phone:</strong>
+              <p class="mb-0">+8801752522629</p>
+            </div>
+
+            <div class="info-item mb-3">
+              <strong>Email:</strong>
+              <p class="mb-0">mdabusayedbinamin@gmail.com</p>
+            </div>
+
+            <div class="info-item mb-3">
+              <strong>Address:</strong>
+              <p class="mb-0">Kurigram Sadar, Rangpur Division, Bangladesh</p>
+            </div>
+
+            <div class="info-item">
+              <strong>Available Time:</strong>
+              <p class="mb-0">Everyday – 9:00 AM to 8:00 PM</p>
+            </div>
+
+          </div>
+        </div>
       </div>
-    </footer>
-
-    <script src="./js/bootstrap.bundle.min.js">
-
-
-    </script>
-    <script>
-      function updateClock(){
-                const now = new Date();
-               const Options={
-                    weekday:'long',
-                    year:'numeric',
-                    month:'long',
-                    day:'numeric',
-                    hour:'2-digit',
-                    minute:'2-digit',
-                    second:'2-digit'
-
-                };
-                document.getElementById('timedate').innerHTML = 
-                now.toLocaleDateString('en-US', Options);
-
-            }
-            updateClock();
-            setInterval(updateClock , 1000);
-    </script>
+    </div>
+  </section>
 
 
-  </body>
+  <footer class="bg-success text-white text-center py-3">
+    <p class="mb-0">
+      © 2025 Agricultural Information Hub. All rights reserved.
+
+    </p>
+    <div id="timedate">
+
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js">
+
+
+  </script>
+  <script src="./js/index.js"></script>
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const Options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+
+      };
+      document.getElementById('timedate').innerHTML =
+        now.toLocaleDateString('en-US', Options);
+
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+
+
+</body>
+
 </html>
